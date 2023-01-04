@@ -3,10 +3,10 @@ import {NavigationContainer} from '@react-navigation/native';
 import First from './pages/First';
 import Second from './pages/Second';
 import {createDrawerNavigator} from '@react-navigation/drawer';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+// import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 const Drawer = createDrawerNavigator();
-const Tab = createBottomTabNavigator();
+// const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
