@@ -1,10 +1,16 @@
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, Button} from 'react-native';
 import React from 'react';
 
 export default function Second({navigation, route}) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Hello from Second</Text>
+      <Button
+        title="Go to Second Detail"
+        onPress={() => {
+          navigation.navigate('SecondDetail');
+        }}
+      />
     </View>
   );
 }
